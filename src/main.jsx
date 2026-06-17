@@ -8,9 +8,9 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ChakraProvider>
-      <BrowserRouter basename="/pokedex">
+      <BrowserRouter basename="/pokedex" >
         <App />
-      </BrowserRouter>
+      </BrowserRouter >
     </ChakraProvider>
   </StrictMode>,
 )
