@@ -26,7 +26,6 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename="/pokedex">
         <NavBar />
         <Routes>
           <Route path='/' element={<Pokedex />} />
@@ -52,7 +51,6 @@ function App() {
 
 
         </Routes>
-      </BrowserRouter> 
 
     </div>
   )
